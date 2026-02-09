@@ -275,7 +275,7 @@ knife4j:
 
 修改代码生成器，运行一次MyBatisCodeGenerator 类通过访问 http://localhost:8123/api/doc.html#/home查看*knife4j接口测试，如果能看到如图的  user-controller  表示成功，调试人员可以根据，实现服务方法，根据业务逻辑测试接口稳定性。*
 
-![img](https://jcnlauhka1t3.feishu.cn/space/api/box/stream/download/asynccode/?code=MjUyNDEzNmY0YWRlNGU1NDFiMjQ0MmY0ZmQ0MjU4YTVfVFJYNDlzcFg4enJaS21vRWVtUlVqbVB2Z1U3UHhrU0JfVG9rZW46TGlSd2JDMVFkb04zNkd4TUpnQmNGRWRablpjXzE3NzA2MjE5NzQ6MTc3MDYyNTU3NF9WNA)
+![img](https://jcnlauhka1t3.feishu.cn/space/api/box/stream/download/asynccode/?code=OWJkNGY5MzJjZGNhM2E5ODU2YWUwMDQ2NDRkNDk3YWZfVXBrUkJTVmNVTFZPRmRPaGpDeXJqS2ltNU9mekthak5fVG9rZW46TGlSd2JDMVFkb04zNkd4TUpnQmNGRWRablpjXzE3NzA2MjcwNDI6MTc3MDYzMDY0Ml9WNA)
 
 ### 注意
 
