@@ -169,8 +169,6 @@ public class MyBatisCodeGenerator {
         // 生成代码
         generator.generate();
     }
-
-    // 详细配置见：https://mybatis-flex.com/zh/others/codegen.html
     public static GlobalConfig createGlobalConfig() {
         // 创建配置内容
         GlobalConfig globalConfig = new GlobalConfig();
@@ -332,6 +330,7 @@ xcopy temp-folder\* E:\General-Template\general-template\ /E /H /I
 # 删除临时文件夹
 rmdir /s /q temp-folder
 ```
+
 
 
 
