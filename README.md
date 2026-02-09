@@ -277,6 +277,61 @@ knife4j:
 
 ![img](https://jcnlauhka1t3.feishu.cn/space/api/box/stream/download/asynccode/?code=MjUyNDEzNmY0YWRlNGU1NDFiMjQ0MmY0ZmQ0MjU4YTVfVFJYNDlzcFg4enJaS21vRWVtUlVqbVB2Z1U3UHhrU0JfVG9rZW46TGlSd2JDMVFkb04zNkd4TUpnQmNGRWRablpjXzE3NzA2MjE5NzQ6MTc3MDYyNTU3NF9WNA)
 
-注意
+### 注意
 
 每个Java版本和spring boot版本太低会不支持本文中的依赖版本，需要根据需求更新版本，不清楚可以去调用AI了解。
+
+## github代码拉取
+
+### 方法一
+
+本地进入文件夹
+
+```
+cd E:\General-Template\general-template
+```
+
+初始化 git 仓库
+
+```
+git init
+```
+
+添加远程仓库地址（SSH）
+
+```
+git remote add origin git@github.com:PrimePeace/Java-General-Template.git
+```
+
+拉取代码
+
+```
+git pull origin main
+```
+
+
+
+### 方法二
+
+```
+# 克隆到当前文件夹
+# 直接克隆到当前文件夹（会自动创建.git文件夹）
+git clone git@github.com:PrimePeace/Java-General-Template.git E:\General-Template\general-template
+```
+
+### 方法三
+
+```
+# 先克隆再移动（如果方法二有问题）
+# 克隆到临时位置
+git clone git@github.com:PrimePeace/Java-General-Template.git temp-folder
+
+# 复制文件到目标文件夹（Windows命令提示符）
+xcopy temp-folder\* E:\General-Template\general-template\ /E /H /I
+
+# 删除临时文件夹
+rmdir /s /q temp-folder
+```
+
+
+
